@@ -1,6 +1,7 @@
 package com.member.model;
 
 
+<<<<<<< HEAD
 public class MemberVO {
 	private String mem_no;
 	private Integer mem_status;
@@ -19,6 +20,33 @@ public class MemberVO {
 		
 	}
 	
+=======
+public class MemberVO implements java.io.Serializable{
+	private String mem_no;
+	private Integer mem_status;
+	private Integer mem_points;
+	private String mem_account;
+	private String mem_password;
+	private String mem_name;
+	private String mem_email;
+	private String mem_phone_no;
+	private String mem_postnum;
+	private String mem_address;
+	private Integer mem_gender;
+	private byte[] mem_img;
+	private String mem_b64_img;
+	
+	public MemberVO() {
+		
+	}
+	
+	public String getMem_b64_img() {
+		return mem_b64_img;
+	}
+	public void setMem_b64_img(String mem_b64_img) {
+		this.mem_b64_img = mem_b64_img;
+	}
+>>>>>>> branch 'master' of https://github.com/mustangLIN/CA107G1.git
 	public String getMem_no() {
 		return mem_no;
 	}

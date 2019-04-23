@@ -7,6 +7,9 @@ public interface PetDAO_interface {
 	public void update(PetVO petVO);
 	public PetVO findByPrimaryKey(String pet_no);
 	public List<PetVO> getAll();
+<<<<<<< HEAD
 	public List<PetVO> getPetVO();
 	
+=======
+>>>>>>> branch 'master' of https://github.com/mustangLIN/CA107G1.git
 }
