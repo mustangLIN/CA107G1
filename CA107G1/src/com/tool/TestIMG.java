@@ -6,6 +6,7 @@ import java.io.*;
 
 //import com.member.model.MemberJDBCDAO;
 //import com.member.model.MemberVO;
+// test git
 
 public class TestIMG {
 	
